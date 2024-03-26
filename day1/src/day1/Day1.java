@@ -1,9 +1,7 @@
 package day1;
 
 public class Day1 {
-
 	public static void main(String[] args) {
-		
 		// 변수 지정
 		int A = 100;
 		
@@ -29,6 +27,7 @@ public class Day1 {
 		double d = 3.14f;   // double 타입 > float 타입이기 때문에 가능
 		// float f = 3.14d;   >  double 타입 > float 타입이기 때문에 불가능
 		
+		System.out.println(0b10);   // 소수점 double 타입 출력
 		System.out.println(10.);   // 소수점 double 타입 출력
 		System.out.println(0.10);  // 소수점 double 타입 출력
 		System.out.println(10f);   // 10.0 float 타입 출력
